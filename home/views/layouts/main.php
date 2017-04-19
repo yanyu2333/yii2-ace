@@ -102,7 +102,7 @@ $this->beginPage();
             try{ace.settings.loadState('sidebar')}catch(e){}
         </script>
         <ul class="nav nav-list">
-            <li class="active open">
+            <li class="">
                 <a href="#" class="dropdown-toggle">
                     <i class="menu-icon fa fa-list"></i>
                     <span class="menu-text"> Tables </span>
@@ -113,43 +113,39 @@ $this->beginPage();
                     <li class="">
                         <a href="111">
                             <i class="menu-icon fa fa-caret-right"></i>
-                            Simple &amp; Dynamic
+                            table1
                         </a>
                         <b class="arrow"></b>
                     </li>
                     <li class="">
                         <a href="/index.php/site/index">
                             <i class="menu-icon fa fa-caret-right"></i>
-                            jqGrid plugin
+                            table2
                         </a>
                         <b class="arrow"></b>
                     </li>
                 </ul>
             </li>
-            <li class="active open">
+            <li class="">
                 <a href="#" class="dropdown-toggle">
-                    <i class="menu-icon fa fa-file-o"></i>
-                    <span class="menu-text">
-								Other Pages
-								<span class="badge badge-primary">5</span>
-							</span>
+                    <i class="menu-icon fa fa-list"></i>
+                    <span class="menu-text"> Data </span>
                     <b class="arrow fa fa-angle-down"></b>
                 </a>
                 <b class="arrow"></b>
                 <ul class="submenu">
                     <li class="">
-                        <a href="/index.php/site2/index">
+                        <a href="111">
                             <i class="menu-icon fa fa-caret-right"></i>
-                            FAQ
+                            data 1
                         </a>
                         <b class="arrow"></b>
                     </li>
                     <li class="">
-                        <a href="error-404.html">
+                        <a href="/index.php/site2/index">
                             <i class="menu-icon fa fa-caret-right"></i>
-                            Error 404
+                            data 2
                         </a>
-
                         <b class="arrow"></b>
                     </li>
                 </ul>
