@@ -1,0 +1,3 @@
+        $handle = fopen('1.text','a+');
+        fwrite($handle, '11');
+        fclose($handle);

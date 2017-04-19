@@ -7,8 +7,46 @@ $this->beginPage();
 <html lang="zh-cn">
 <head>
     <?php $this->head(); ?>
-    <meta charset="UTF-8">
-    <title>测试</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8" />
+    <title>test</title>
+
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <!-- bootstrap & fontawesome -->
+    <link rel="stylesheet" href="/web/ace/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/web/ace/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+    <!-- page specific plugin styles -->
+
+    <!-- text fonts -->
+    <link rel="stylesheet" href="/web/ace/css/fonts.googleapis.com.css" />
+
+    <!-- ace styles -->
+    <link rel="stylesheet" href="/web/ace/css/ace.min.css" class="ace-main-stylesheet" id="main-ace-style" />
+
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="/web/ace/css/ace-part2.min.css" class="ace-main-stylesheet" />
+    <![endif]-->
+    <link rel="stylesheet" href="/web/ace/css/ace-skins.min.css" />
+    <link rel="stylesheet" href="/web/ace/css/ace-rtl.min.css" />
+
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="/web/ace/css/ace-ie.min.css" />
+    <![endif]-->
+
+    <!-- inline styles related to this page -->
+
+    <!-- ace settings handler -->
+    <script src="/web/ace/js/ace-extra.min.js"></script>
+
+    <!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
+
+    <!--[if lte IE 8]>
+    <script src="/web/ace/js/html5shiv.min.js"></script>
+    <script src="/web/ace/js/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
 <?php $this->beginBody(); ?>
@@ -34,7 +72,7 @@ $this->beginPage();
             <ul class="nav ace-nav">
                 <li class="light-blue dropdown-modal">
                     <a data-toggle="dropdown" href="#" class="dropdown-toggle">
-                        <img class="nav-user-photo" src="web/ace/images/avatars/user.jpg" alt="Jason's Photo" />
+                        <img class="nav-user-photo" src="/web/ace/images/avatars/user.jpg" alt="Jason's Photo" />
                         <span class="user-info">
 									<small>Welcome,</small>
 									Lily
@@ -54,7 +92,7 @@ $this->beginPage();
         </div>
     </div><!-- /.navbar-container -->
 </div>
-<div class="main-container ace-save-state" id="main-container">
+<body class="main-container ace-save-state" id="main-container">
     <script type="text/javascript">
         try{ace.settings.loadState('main-container')}catch(e){}
     </script>
@@ -72,15 +110,15 @@ $this->beginPage();
                 </a>
                 <b class="arrow"></b>
                 <ul class="submenu">
-                    <li class="active">
-                        <a href="/index.php?r=site">
+                    <li class="">
+                        <a href="111">
                             <i class="menu-icon fa fa-caret-right"></i>
                             Simple &amp; Dynamic
                         </a>
                         <b class="arrow"></b>
                     </li>
                     <li class="">
-                        <a href="">
+                        <a href="/index.php/site/index">
                             <i class="menu-icon fa fa-caret-right"></i>
                             jqGrid plugin
                         </a>
@@ -88,7 +126,7 @@ $this->beginPage();
                     </li>
                 </ul>
             </li>
-            <li class="">
+            <li class="active open">
                 <a href="#" class="dropdown-toggle">
                     <i class="menu-icon fa fa-file-o"></i>
                     <span class="menu-text">
@@ -100,7 +138,7 @@ $this->beginPage();
                 <b class="arrow"></b>
                 <ul class="submenu">
                     <li class="">
-                        <a href="faq.html">
+                        <a href="/index.php/site2/index">
                             <i class="menu-icon fa fa-caret-right"></i>
                             FAQ
                         </a>
@@ -114,28 +152,6 @@ $this->beginPage();
 
                         <b class="arrow"></b>
                     </li>
-
-                    <li class="">
-                        <a href="error-500.html">
-                            <i class="menu-icon fa fa-caret-right"></i>
-                            Error 500
-                        </a>
-                        <b class="arrow"></b>
-                    </li>
-                    <li class="">
-                        <a href="grid.html">
-                            <i class="menu-icon fa fa-caret-right"></i>
-                            Grid
-                        </a>
-                        <b class="arrow"></b>
-                    </li>
-                    <li class="">
-                        <a href="blank.html">
-                            <i class="menu-icon fa fa-caret-right"></i>
-                            Blank Page
-                        </a>
-                        <b class="arrow"></b>
-                    </li>
                 </ul>
             </li>
         </ul><!-- /.nav-list -->
@@ -145,7 +161,7 @@ $this->beginPage();
     </div>
     <div class="main-content">
         <div class="main-content-inner">
-          <!--  <div class="breadcrumbs ace-save-state" id="breadcrumbs">
+      <!--   <div class="breadcrumbs ace-save-state" id="breadcrumbs">
                 <ul class="breadcrumb">
                     <li>
                         <i class="ace-icon fa fa-home home-icon"></i>
@@ -181,7 +197,52 @@ $this->beginPage();
         <i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
     </a>
     </div>
-<?php $this->endBody(); ?>
+
+    <!-- basic scripts -->
+
+    <!--[if !IE]> -->
+    <script src="/web/ace/js/jquery-2.1.4.min.js"></script>
+
+    <!-- <![endif]-->
+
+    <!--[if IE]>
+    <script src="/web/ace/js/jquery-1.11.3.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        if('ontouchstart' in document.documentElement) document.write("<script src='web/ace/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+    </script>
+    <script src="/web/ace/js/bootstrap.min.js"></script>
+
+    <!-- page specific plugin scripts -->
+
+    <!-- ace scripts -->
+    <script src="/web/ace/js/ace-elements.min.js"></script>
+    <script src="/web/ace/js/ace.min.js"></script>
+    <script src="/web/js/jquery.cookie.js"></script>
+    <!-- inline scripts related to this page -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+                var cookie_href =  $.cookie('url');
+                if (typeof cookie_href != 'undefined') {
+                    $('ul.submenu li').each(function(){
+                        $(this).removeClass('active');
+                        $(this).parent().parent().removeClass('active').removeClass('open');
+                        if (cookie_href == $(this).children('a').prop('href')) {
+                            $(this).addClass('active');
+                            $(this).parent().parent().addClass('active open');
+                        }
+                    });
+                }
+            }
+        );
+        $('ul.submenu li').find('a').on('click', function(){
+            var href = $(this).prop('href');
+            $.cookie('url', href, {expires : 1, path : '/'});
+        });
+
+    </script>
 </body>
+<?php $this->endBody(); ?>
+
 </html>
 <?php $this->endPage();?>

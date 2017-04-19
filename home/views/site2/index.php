@@ -2,15 +2,15 @@
 <div class="panel panel-warning">
     <!-- panel heading -->
     <div class="panel-heading">
-        <h2>1</h2>
+        <h2>2</h2>
     </div>
     <!-- panel body -->
     <div class="panel-body">
         <div class="row">
             <form action="/bill-convert-alipay/index" method="get" id="formSearch" class="form-inline">
                 <div class="col-sm-10 col-md-10 col-lg-10">
-                    账号: <input type="text" class="form-control" id="account" name="account"/>
-                    姓名: <input type="text" class="form-control" id="name" name="name"/>
+                    2: <input type="text" class="form-control" id="account" name="account"/>
+                    2: <input type="text" class="form-control" id="name" name="name"/>
                     <button class="btn btn-primary" type="submit" id="btn_search">
                         <span class="glyphicon glyphicon-search"></span>
                         <span>搜索</span>

@@ -34,8 +34,18 @@ $config = [
         ],
         'request' =>[
             'cookieValidationKey' => 'erinnyes'
-        ]
+        ],
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'rules' => [
+                ''=>'site/index'
+            ],
+        ],
+
     ]
+
+
 
     //'layout' => null
 ];
