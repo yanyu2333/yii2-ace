@@ -15,37 +15,37 @@ $this->beginPage();
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
     <!-- bootstrap & fontawesome -->
-    <link rel="stylesheet" href="/web/ace/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/web/ace/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/web/ace/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/web/ace/assets/font-awesome/4.5.0/css/font-awesome.min.css" />
 
     <!-- page specific plugin styles -->
 
     <!-- text fonts -->
-    <link rel="stylesheet" href="/web/ace/css/fonts.googleapis.com.css" />
+    <link rel="stylesheet" href="/web/ace/assets/css/fonts.googleapis.com.css" />
 
     <!-- ace styles -->
-    <link rel="stylesheet" href="/web/ace/css/ace.min.css" class="ace-main-stylesheet" id="main-ace-style" />
+    <link rel="stylesheet" href="/web/ace/assets/css/ace.min.css" class="ace-main-stylesheet" id="main-ace-style" />
 
     <!--[if lte IE 9]>
-    <link rel="stylesheet" href="/web/ace/css/ace-part2.min.css" class="ace-main-stylesheet" />
+    <link rel="stylesheet" href="/web/ace/assets/css/ace-part2.min.css" class="ace-main-stylesheet" />
     <![endif]-->
-    <link rel="stylesheet" href="/web/ace/css/ace-skins.min.css" />
-    <link rel="stylesheet" href="/web/ace/css/ace-rtl.min.css" />
+    <link rel="stylesheet" href="/web/ace/assets/css/ace-skins.min.css" />
+    <link rel="stylesheet" href="/web/ace/assets/css/ace-rtl.min.css" />
 
     <!--[if lte IE 9]>
-    <link rel="stylesheet" href="/web/ace/css/ace-ie.min.css" />
+    <link rel="stylesheet" href="/web/ace/assets/css/ace-ie.min.css" />
     <![endif]-->
 
     <!-- inline styles related to this page -->
 
     <!-- ace settings handler -->
-    <script src="/web/ace/js/ace-extra.min.js"></script>
+    <script src="/web/ace/assets/js/ace-extra.min.js"></script>
 
     <!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
 
     <!--[if lte IE 8]>
-    <script src="/web/ace/js/html5shiv.min.js"></script>
-    <script src="/web/ace/js/respond.min.js"></script>
+    <script src="/web/ace/assets/js/html5shiv.min.js"></script>
+    <script src="/web/ace/assets/js/respond.min.js"></script>
     <![endif]-->
 </head>
 <body>
@@ -72,7 +72,7 @@ $this->beginPage();
             <ul class="nav ace-nav">
                 <li class="light-blue dropdown-modal">
                     <a data-toggle="dropdown" href="#" class="dropdown-toggle">
-                        <img class="nav-user-photo" src="/web/ace/images/avatars/user.jpg" alt="Jason's Photo" />
+                        <img class="nav-user-photo" src="/web/ace/assets/images/avatars/user.jpg" alt="Jason's Photo" />
                         <span class="user-info">
 									<small>Welcome,</small>
 									Lily
@@ -197,23 +197,23 @@ $this->beginPage();
     <!-- basic scripts -->
 
     <!--[if !IE]> -->
-    <script src="/web/ace/js/jquery-2.1.4.min.js"></script>
+    <script src="/web/ace/assets/js/jquery-2.1.4.min.js"></script>
 
     <!-- <![endif]-->
 
     <!--[if IE]>
-    <script src="/web/ace/js/jquery-1.11.3.min.js"></script>
+    <script src="/web/ace/assets/js/jquery-1.11.3.min.js"></script>
     <![endif]-->
     <script type="text/javascript">
         if('ontouchstart' in document.documentElement) document.write("<script src='web/ace/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
     </script>
-    <script src="/web/ace/js/bootstrap.min.js"></script>
+    <script src="/web/ace/assets/js/bootstrap.min.js"></script>
 
     <!-- page specific plugin scripts -->
 
     <!-- ace scripts -->
-    <script src="/web/ace/js/ace-elements.min.js"></script>
-    <script src="/web/ace/js/ace.min.js"></script>
+    <script src="/web/ace/assets/js/ace-elements.min.js"></script>
+    <script src="/web/ace/assets/js/ace.min.js"></script>
     <script src="/web/js/jquery.cookie.js"></script>
     <!-- inline scripts related to this page -->
     <script type="text/javascript">
