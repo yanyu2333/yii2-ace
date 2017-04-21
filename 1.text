@@ -1,3 +1,5 @@
         $handle = fopen('1.text','a+');
         fwrite($handle, '11');
         fclose($handle);
+
+          <i  title='暂停' class='icon ion-log-in fsize16 fcLightGray' style='cursor:pointer'></i>
